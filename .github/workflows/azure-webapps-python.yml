@@ -69,4 +69,4 @@ jobs:
       - name: Enable system debug setting
         run: |
           echo "ACTIONS_RUNNER_DEBUG=true"
-          # Add commands here to enable system debug setting
+          ACTIONS_RUNNER_DEBUG=true
